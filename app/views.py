@@ -11,7 +11,6 @@ from app.models import Cliente, Estado, Cidade,Endereco, Contato, Representacao,
 from django.http.response import JsonResponse, HttpResponse
 from django.core import serializers
 from django.core.serializers import json
-import simplejson
 import pickle
 from _collections import defaultdict
 import json
